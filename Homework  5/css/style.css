@@ -1,0 +1,36 @@
+form {
+	font-family: sans-serif;
+}
+
+fieldset {
+	width: 350px;
+	border-radius: 10px;
+}
+
+h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.input {
+	display: block;
+	margin-bottom: 10px;
+	width: 280px;
+	height: 20px;
+	border-radius: 5px;
+}
+
+textarea {
+	resize: vertical;
+	width: 280px;
+	min-height: 35px;
+	max-height: 150px;
+	border-radius: 5px;
+}
+
+.flag {
+	margin-bottom: 10px;
+	display: block;
+}
+button {
+	cursor: pointer;
+}

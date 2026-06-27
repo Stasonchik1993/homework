@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Домашнее задание 5</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<h3>Ваши личные данные</h3>
+				<label>
+					Ваше имя
+					<input class="input" type="text" name="name" value="Имя" required />
+				</label>
+				<label>
+					Ваш возраст
+					<input
+						class="input"
+						type="text"
+						inputmode="numeric"
+						name="age"
+						value="Возраст"
+						required
+					/>
+				</label>
+				<label>
+					Ваш номер телефона
+					<input
+						class="input"
+						type="tel"
+						inputmode="tel"
+						name="phone"
+						value="Номер телефона"
+						required
+					/>
+				</label>
+				<label>
+					Ваша почта
+					<input
+						class="input"
+						type="email"
+						inputmode="email"
+						name="email"
+						value="Почта"
+						required
+					/>
+				</label>
+				<label>
+					Сообщнение
+					<textarea name="message">Ваше сообщение</textarea>
+				</label>
+				<label class="flag">
+					<input name="flag" type="checkbox" value="flag" />
+					Я принимаю правила
+				</label>
+				<button>Отправить</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
